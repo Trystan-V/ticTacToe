@@ -13,6 +13,12 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Joueur joueur1 = new Joueur("Player",1);
+        Joueur joueur2 = new Joueur("Player",2);
+
+        System.out.println("Bienvenue à toi " + joueur1 + "!");
+        System.out.println("Bienvenue à toi " + joueur2 + "!");
     }
 
+}
